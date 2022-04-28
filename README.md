@@ -30,13 +30,13 @@ In order to train the model and store test data in the data folder and the model
 #activate env
 source .venv/bin/activate
 
-python train.py  
+python example_files/train.py  
 ```
 
 In order to test that predict works on a test set you created run:
 
 ```bash
-python predict.py models/linear_regression_model.sav data/X_test.csv data/y_test.csv
+python example_files/predict.py models/linear_regression_model.sav data/X_test.csv data/y_test.csv
 ```
 
 ## Limitations
