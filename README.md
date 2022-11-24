@@ -21,7 +21,7 @@ In your newly create repo, navigate to "Projects", and then click on "Add projec
 ![alt text](./images/add_project.png)
 
 
-Choose "board" view and **not** "table" view, then click "create".
+You will be guided to your profiles projects. Click here on the green button "New project" to create a new project. Choose "board" view and **not** "table" view, then click "create".
 Good, now you have a board view. 
 ![alt text](./images/boardview.png)
 
