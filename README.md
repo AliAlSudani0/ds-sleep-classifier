@@ -13,7 +13,7 @@ Go to ML-Project Template.
 Click on "Use this Template" (Green button)
 ![alt text](./images/step_1a.png)
 
-Create new project with relevant name, under own account and **not** Neuefische.
+Create new project with relevant name, the owner should be your own account and **not** Neuefische. 
 
 ![alt text](./images/step_2.png)
 
@@ -42,14 +42,12 @@ Next, add action items with the relevant name e.g. “load data”, "get statist
 Convert added item to issue by clicking on the 3 dots on the particular added item.
 
 Then select the repo you created in step3 for the issue to be added. (Select the project repo example “Fraud detection”)
-![alt text](./images/rename_board.png)
 
 
-Optional
-(Navigate to workflows, activate the ones you feel necessary to your project,
-Go back to your project repository (fraud detection) and add the project to your repo (go to "Projects", "add project" and add your newly created project). Now switch to issues and change here to the milestones view. 
 
-Click on ”New milestone”.
+When in project repo, Go to issues, then go to milestones. 
+
+Click on ”Add milestone”.
 
 Give the milestone a due date and description as per the example provided by the coaches. 
 
@@ -65,6 +63,19 @@ Now navigate to "issues".
 Assign issues to milestones, give it assignees (people who will work on the task). 
 ![alt text](./images/tasks_to_mileston.png)
 
+### Optional: Add workflows
+
+Workflows can help you keep your kanban board automatically on track. 
+
+Select the project created in the steps above.  
+
+Click on the 3 dots to the far right of the board (...)
+
+Select workflow as the first option. 
+
+Activate the ones you feel necessary to your project
+
+Go back to your project repository (fraud detection))
 
 ## Requirements and Environment
 
