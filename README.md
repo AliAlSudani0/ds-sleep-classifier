@@ -49,7 +49,7 @@ Optional
 (Navigate to workflows, activate the ones you feel necessary to your project,
 Go back to your project repository (fraud detection) and add the project to your repo (go to "Projects", "add project" and add your newly created project). Now switch to issues and change here to the milestones view. 
 
-Click on ”Add milestone”.
+Click on ”New milestone”.
 
 Give the milestone a due date and description as per the example provided by the coaches. 
 
