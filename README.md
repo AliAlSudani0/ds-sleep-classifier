@@ -47,9 +47,7 @@ Then select the repo you created in step3 for the issue to be added. (Select the
 
 Optional
 (Navigate to workflows, activate the ones you feel necessary to your project,
-Go back to your project repository (fraud detection) )
-
-When in project repo, Go to issues, then go to milestones. 
+Go back to your project repository (fraud detection) and add the project to your repo (go to "Projects", "add project" and add your newly created project). Now switch to issues and change here to the milestones view. 
 
 Click on ”Add milestone”.
 
