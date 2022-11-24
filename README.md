@@ -32,7 +32,7 @@ Next, assign rights to all your team members by clicking on the 3 dots on the to
 Next, click on "Manage Access"
 Add your team mates by Searching for their github handle in the search window.
 
-Change their Role from ‘View’ to ‘Admin’ 
+Change their Role from ‘View’ to ‘Admin’. 
 Click on the green button “Invite” to add them. Repeat for all team members.
 ![alt text](./images/team_access.png
 )
