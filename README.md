@@ -17,7 +17,7 @@ Create new project with relevant name, under own account and **not** Neuefische.
 
 ![alt text](./images/step_2.png)
 
-On your profile, navigate to and click on "projects", and then click on "Add project". Finally click the arrow navigation to create project on your profile. 
+In your newly create repo, navigate to "Projects", and then click on "Add project" (green button). Normally you don't have created a project yet, so you can click the arrow navigation to create project on your profile. This project can be added at the end to your repository.
 ![alt text](./images/add_project.png)
 
 
