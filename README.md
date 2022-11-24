@@ -62,7 +62,7 @@ B) The definition of done: what will your result look like when you have complet
 
 Now navigate to "issues".
 
-Assign issues as milestones, give it assignees, no labels needed but feel free to. 
+Assign issues to milestones, give it assignees (people who will work on the task). 
 ![alt text](./images/tasks_to_mileston.png)
 
 
