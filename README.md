@@ -57,7 +57,7 @@ Add description of:
 
 A) What needs to be completed to be done with the milestone
 
-B) The submission style (per format provided)
+B) The definition of done: what will your result look like when you have completed the milestone? (check the provided format)
 ![alt text](./images/create_milestone.png)
 
 Now navigate to "issues".
