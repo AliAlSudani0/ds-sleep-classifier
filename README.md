@@ -10,7 +10,7 @@ The data used for this is: [coffee quality dataset](https://github.com/jldbc/cof
 
 Go to ML-Project Template.
 
-Click on the Template (Green button)
+Click on "Use this Template" (Green button)
 ![alt text](./images/step_1a.png)
 
 Create new project with relevant name, under own account and **not** Neuefische.
