@@ -137,7 +137,8 @@ Or ....
 ## Usage
 
 In order to train the model and store test data in the data folder and the model in models run:
-`Note`: Don’t forget to activate your Environment.
+
+`Note`: Make sure your environment is activated.
 
 ```bash
 python example_files/train.py  
