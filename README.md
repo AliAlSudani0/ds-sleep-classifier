@@ -77,31 +77,70 @@ Activate the ones you feel necessary to your project
 
 Go back to your project repository (fraud detection))
 
-## Requirements and Environment
+## Set up your Environment
 
-Requirements:
-- pyenv with Python: 3.11.3
 
-Environment: 
 
-For installing the virtual environment you can either use the Makefile and run `make setup` or install it manually with the following commands: 
+### **`macOS`** type the following commands : 
 
-```Bash
-pyenv local 3.11.3
-python -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-```
+- For installing the virtual environment you can either use the [Makefile](Makefile) and run `make setup` or install it manually with the following commands:
 
+     ```BASH
+    make setup
+    ```
+    After that active your environment by following commands:
+    ```BASH
+    source .venv/bin/activate
+    ```
+Or ....
+- Install the virtual environment and the required packages by following commands:
+
+    ```BASH
+    pyenv local 3.11.3
+    python -m venv .venv
+    source .venv/bin/activate
+    pip install --upgrade pip
+    pip install -r requirements.txt
+    ```
+    
+### **`WindowsOS`** type the following commands :
+
+- Install the virtual environment and the required packages by following commands.
+
+   For `PowerShell` CLI :
+
+    ```PowerShell
+    pyenv local 3.11.3
+    python -m venv .venv
+    .venv\Scripts\Activate.ps1
+    pip install --upgrade pip
+    pip install -r requirements.txt
+    ```
+
+    For `Git-bash` CLI :
+    ```
+    pyenv local 3.11.3
+    python -m venv .venv
+    source .venv/Scripts/activate
+    pip install --upgrade pip
+    pip install -r requirements.txt
+    ```
+
+    **`Note:`**
+    If you encounter an error when trying to run `pip install --upgrade pip`, try using the following command:
+    ```Bash
+    python.exe -m pip install --upgrade pip
+    ```
+
+
+   
 ## Usage
 
 In order to train the model and store test data in the data folder and the model in models run:
 
-```bash
-#activate env
-source .venv/bin/activate
+**`Note`**: Make sure your environment is activated.
 
+```bash
 python example_files/train.py  
 ```
 
