@@ -118,7 +118,8 @@ Or ....
     ```
 
     For `Git-bash` CLI :
-    ```
+  
+    ```BASH
     pyenv local 3.11.3
     python -m venv .venv
     source .venv/Scripts/activate
