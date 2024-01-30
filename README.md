@@ -10,58 +10,62 @@ The data used for this is: [coffee quality dataset](https://github.com/jldbc/cof
 
 Go to ML-Project Template.
 
-Click on "Use this Template" (Green button)
-![alt text](./images/step_1a.png)
+1. Click on "Use this Template" (Blue button)
+![alt text](./images/step_1a_new.png)
 
-Create new project with relevant name, the owner should be your own account and **not** Neuefische. 
+1. Create new repository with relevant name, the owner should be your own account. 
+![alt text](./images/step_2_new.png)
 
-![alt text](./images/step_2.png)
-
-In your newly create repo, navigate to "Projects", and then click on "Add project" (green button). Normally you don't have created a project yet, so you can click the arrow navigation to create project on your profile. This project can be added at the end to your repository.
-![alt text](./images/add_project.png)
+1. In your newly create repo, navigate to "Projects", and then click on "Link a project" (blue button). Normally you don't have created a project yet, so you can click the arrow navigation to create project on your profile. This project can be added at the end to your repository.
+![alt text](./images/add_project_new.png)
 
 
-You will be guided to your profiles projects. Click here on the green button "New project" to create a new project. Choose "board" view and **not** "table" view, then click "create".
-Good, now you have a board view. 
-![alt text](./images/boardview.png)
+4.  You will be guided to your profiles projects and it will be shown a create project window. Choose "board" view and **not** "table" view.
+ ![alt text](./images/choose_board.png)
+5. Now change the name of your board, to match that of your chosen ML project. Then click "Create project" blue button. Great you create Kanban Board
+![alt text](./images/create_project_new.png)
 
-Now change the name of your board, to match that of your chosen ML project. 
+6. Next, assign rights to all your team members by clicking on the 3 dots on the top right of the board, and then go to "Settings".
+![alt text](./images/kanban_settings.png)
 
-Next, assign rights to all your team members by clicking on the 3 dots on the top right of the board, and then go to "settings". 
 
-Next, click on "Manage Access"
-Add your team mates by Searching for their github handle in the search window.
-
-Change their Role from ‘View’ to ‘Admin’. 
-Click on the green button “Invite” to add them. Repeat for all team members.
-![alt text](./images/team_access.png
+7. Next, click on "Manage Access". Add your team mates by Searching for their github handle in the search window.Change their Role from ‘Write’ to ‘Admin’. Click on the blue button “Invite” to add them. Repeat for all team members.
+![alt text](./images/team_access_new.png
 )
 
-Next, add action items with the relevant name e.g. “load data”, "get statistics", etc.
-
-Convert added item to issue by clicking on the 3 dots on the particular added item.
-
-Then select the repo you created in step3 for the issue to be added. (Select the project repo example “Fraud detection”)
+8. Next,go back to the kanban board and at the bottom  add action items with the relevant name e.g. “load data”, "get statistics", etc.
+![alt text](./images/load_data_item.png
+)
 
 
+9. Convert added item to issue by clicking on the 3 dots on the particular added item.
+![alt text](./images/convert_to_issue.png
+)
 
-When in project repo, Go to issues, then go to milestones. 
+10. Then select the repo you created  for the issue to be added. (Select the project repo example “my-project-name”)
+![alt text](./images/select_repo.png
+)
 
-Click on ”Add milestone”.
+11. When in project repo, Go to issues, then go to milestones. 
+![alt text](./images/to_milestones.png
+)
 
-Give the milestone a due date and description as per the example provided by the coaches. 
+12. Click on ”New milestone”.
 
-Add description of: 
+13. Give the milestone a due date and description as per the example provided by the coaches. Add description of: 
 
-A) What needs to be completed to be done with the milestone
+    A) What needs to be completed to be done with the milestone
 
-B) The definition of done: what will your result look like when you have completed the milestone? (check the provided format)
-![alt text](./images/create_milestone.png)
+    B) The definition of done: what will your result look like when you have completed the milestone? (check the provided format)
+![alt text](./images/new_milestone.png)
 
-Now navigate to "issues".
+14. Now navigate to "issues".
 
-Assign issues to milestones, give it assignees (people who will work on the task). 
-![alt text](./images/tasks_to_mileston.png)
+15. Assign issues to milestones 
+![alt text](./images/milestone_to_issue_new.png)
+
+16. Give it assignees (people who will work on the task). 
+![alt text](./images/milestone_to_someone.png)
 
 ### Optional: Add workflows
 
