@@ -43,7 +43,7 @@ jobs:
           ./.github/workflows/REGX_test_import_libraries.sh
           echo  "<<<<<<< Create import libraries from the Notebook run successfully  >>>>>>"
 
-      - name: Install dependencies and testing import_libraries_test.py 
+      - name:  Install dependencies 
         run: |
           python --version
           python -m venv .venv
@@ -53,6 +53,10 @@ jobs:
           pip install -r requirements.txt
           echo "<<<<<<< Install dependencies run successfully >>>>>>"
 
+      - name:  Test the import libraries
+        run: |
+          source .venv/bin/activate
+          ./.github/workflows/REGX_test_import_libraries.sh
           echo "<<<<<<< Test the dependencies in the import libraries from the Notebook >>>>>>"
           pip install pytest
           pytest ./.github/workflows/testing/test_import_libraries.py
@@ -83,7 +87,7 @@ jobs:
           ./.github/workflows/REGX_test_import_libraries.sh
           echo  "<<<<<<< Create import libraries from the Notebook run successfully  >>>>>>"
 
-      - name: Install dependencies and test the import libraries
+      - name:  Install dependencies 
         shell: bash  
         run: |
           echo "Note: This code is intended to run under the Bash CLI, not PowerShell."
@@ -95,6 +99,12 @@ jobs:
           pip install -r requirements.txt
           echo "<<<<<<< Install dependencies run successfully >>>>>>"
 
+      - name:  Test the import libraries
+        shell: bash  
+        run: |
+          echo "Note: This code is intended to run under the Bash CLI, not PowerShell."
+          source .venv/Scripts/activate
+          ./.github/workflows/REGX_test_import_libraries.sh
           echo "<<<<<<< Test the dependencies in the import libraries from the Notebook >>>>>>"
           pip install pytest
           pytest ./.github/workflows/testing/test_import_libraries.py
@@ -125,7 +135,7 @@ jobs:
             ./.github/workflows/REGX_test_import_libraries.sh
             echo  "<<<<<<< Create import libraries from the Notebook run successfully  >>>>>>"
 
-      - name:  Install dependencies and test the import libraries
+      - name:  Install dependencies 
         run: |
           python --version
           python -m venv .venv
@@ -135,6 +145,10 @@ jobs:
           pip install -r requirements.txt
           echo "<<<<<<< Install dependencies run successfully >>>>>>"
 
+      - name:  Test the import libraries
+        run: |
+          source .venv/bin/activate
+          ./.github/workflows/REGX_test_import_libraries.sh
           echo "<<<<<<< Test the dependencies in the import libraries from the Notebook >>>>>>"
           pip install pytest
           pytest ./.github/workflows/testing/test_import_libraries.py
@@ -165,7 +179,7 @@ jobs:
             ./.github/workflows/REGX_test_import_libraries.sh 
             echo  "<<<<<<< Create import libraries from the Notebook run successfully  >>>>>>"
 
-      - name: Install dependencies and test the import libraries
+      - name:  Install dependencies 
         run: |
           python --version
           python -m venv .venv
@@ -175,6 +189,10 @@ jobs:
           pip install -r requirements.txt
           echo "<<<<<<< Install dependencies run successfully >>>>>>"
 
+      - name:  Test the import libraries
+        run: |
+          source .venv/bin/activate
+          ./.github/workflows/REGX_test_import_libraries.sh
           echo "<<<<<<< Test the dependencies in the import libraries from the Notebook >>>>>>"
           pip install pytest
           pytest ./.github/workflows/testing/test_import_libraries.py
