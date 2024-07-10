@@ -31,7 +31,7 @@ echo "#!/usr/bin/env python" > "$PYTHON_FILE.tmp"
 echo "" >> "$PYTHON_FILE.tmp"
 echo "def test_import_libraries():" >> "$PYTHON_FILE.tmp"
 echo "    try:" >> "$PYTHON_FILE.tmp"
-grep -v "^import" "$PYTHON_FILE" | sed 's/^/        /' >> "$PYTHON_FILE.tmp"
+grep  "import" "$PYTHON_FILE" | sed 's/^/        /' >> "$PYTHON_FILE.tmp"
 echo "    except ImportError as e:" >> "$PYTHON_FILE.tmp"
 echo "        # If any of the libraries cannot be imported, the test will fail" >> "$PYTHON_FILE.tmp"
 echo "        assert False, f\"Failed to import library: {e}\"" >> "$PYTHON_FILE.tmp"
@@ -41,3 +41,4 @@ echo "    assert True" >> "$PYTHON_FILE.tmp"
 
 # Move the temporary file to the final location
 mv "$PYTHON_FILE.tmp" "$PYTHON_FILE"
+cat  "$PYTHON_FILE"
