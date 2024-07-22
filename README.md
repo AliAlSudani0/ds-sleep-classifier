@@ -119,7 +119,7 @@ Or ....
     pyenv local 3.11.3
     python -m venv .venv
     .venv\Scripts\Activate.ps1
-    pip install --upgrade pip
+    python -m pip install --upgrade pip
     pip install -r requirements.txt
     ```
 
@@ -129,7 +129,7 @@ Or ....
     pyenv local 3.11.3
     python -m venv .venv
     source .venv/Scripts/activate
-    pip install --upgrade pip
+    python -m pip install --upgrade pip
     pip install -r requirements.txt
     ```
 
