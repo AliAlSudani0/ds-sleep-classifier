@@ -162,3 +162,27 @@ python example_files/predict.py models/linear_regression_model.sav data/X_test.c
 Development libraries are part of the production environment, normally these would be separate as the production code should be as slim as possible.
 
 
+---
+
+## Handling Merge Conflicts in Jupyter Notebooks
+
+When working in teams, `.ipynb` files can cause messy merge conflicts because they’re JSON-based.  
+We use **nbdime** to make this easy.
+
+### Setup (run once)
+```bash
+nbdime config-git --enable
+```
+
+### When a conflict happens
+```bash
+nbdime mergetool
+```
+
+A web interface will open showing both notebook versions side by side.
+Choose what to keep, save and close tool, then:
+```bash
+git add your_notebook.ipynb
+git commit -m "Resolved notebook conflict"
+```
+That’s it — clean merges for notebooks!
